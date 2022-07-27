@@ -1,0 +1,13 @@
+﻿@foreach (var item in Model.productInOrders)
+{
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">@item.product.productName</div>
+            <small>Valid unitil: @item.product.validUntil.ToShortDateString()</small>
+            <br />
+            <small>Genre: @item.product.genre</small>
+            <br />
+        </div>
+        <span class="badge bg-primary rounded-pill">@item.quantity X @item.product.productPrice$</span>
+    </li>
+}

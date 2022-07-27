@@ -1,0 +1,63 @@
+﻿@using Cinema.Domain.Identity
+@model IEnumerable<ApplicationUser>
+<h1>User List</h1>
+<br />
+<a class="btn btn-outline-success" asp-controller="Users" asp-action="ImportFile">Import Users</a>
+<br />
+<table class="table table-striped" id="userTable">
+    <thead>
+        <tr>
+            <th>
+                User
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Current role
+            </th>
+            <th style="width:10%">
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>
+                    <div class="row">
+                        <div class="col-sm">
+                            <a>
+                                @user.UserName
+                            </a>
+                            <br>
+                            <small>
+                                @user.Id
+                            </small>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <a>
+                        @user.Email
+                    </a>
+                </td>
+                <td>
+                    @user.userRole
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Action
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-controller="Users" asp-action="ChangeRoleToAdministrator" asp-route-id ="@user.Id">Change role to 'Administrator'</a></li>
+                            <li><a class="dropdown-item" asp-controller="Users" asp-action="ChangeRoleToStandard" asp-route-id="@user.Id">Change role to 'Standard'</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

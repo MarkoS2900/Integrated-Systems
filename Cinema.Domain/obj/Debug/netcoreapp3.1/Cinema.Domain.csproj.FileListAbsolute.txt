@@ -1,0 +1,10 @@
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\bin\Debug\netcoreapp3.1\Cinema.Domain.deps.json
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\bin\Debug\netcoreapp3.1\Cinema.Domain.dll
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\bin\Debug\netcoreapp3.1\Cinema.Domain.pdb
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\obj\Debug\netcoreapp3.1\Cinema.Domain.csproj.AssemblyReference.cache
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\obj\Debug\netcoreapp3.1\Cinema.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\obj\Debug\netcoreapp3.1\Cinema.Domain.AssemblyInfoInputs.cache
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\obj\Debug\netcoreapp3.1\Cinema.Domain.AssemblyInfo.cs
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\obj\Debug\netcoreapp3.1\Cinema.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\obj\Debug\netcoreapp3.1\Cinema.Domain.dll
+C:\Users\mastanojevikj\OneDrive - ENDAVA\Desktop\C# Graduates programs\HomeworkIntegratedSystems\Cinema.Domain\obj\Debug\netcoreapp3.1\Cinema.Domain.pdb

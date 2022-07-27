@@ -1,0 +1,32 @@
+﻿@model List<Cinema.Domain.DomainModels.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Available tickets</h2>
+<a asp-controller="Products" asp-action="ExportTickets" class="btn btn-success">Export Tickets</a>
+<ol class="list-group list-group-numbered">
+
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var item = Model[i];
+
+
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">@item.productName</div>
+                <small>Valid unitil: @item.validUntil.ToShortDateString()</small>
+                <br />
+                <small>Genre: @item.genre</small>
+                <br />
+                <a asp-controller="Products" asp-action="AddProductToCart" asp-route-id="@item.Id" class="btn btn-outline-info">Add to cart</a>
+
+            </div>
+            <span class="badge bg-primary rounded-pill">@item.productPrice$</span>
+        </li>
+
+    }
+</ol>
+
